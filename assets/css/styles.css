@@ -1,0 +1,102 @@
+body {
+    background: rgb(35,0,36);
+    background: linear-gradient(90deg, rgba(35,0,36,1) 0%, rgba(23,91,31,1) 0%, rgba(25,90,31,1) 0%, rgba(138,46,16,1) 69%, rgba(255,0,0,1) 100%); 
+}
+
+section{max-width: 50%;
+        margin:auto;
+        background-color: aliceblue;
+        text-align: left;
+        padding:20px;
+        font-weight: 100;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border-radius: 5px;
+    }
+
+li{
+    text-align: center;
+    list-style-type:none;
+
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.formulario label{
+    margin:5px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.contenedorOpcion {
+    display:flex;
+    flex:1;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+.contenedorTexto{
+    display: flex;
+    flex:1;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contenedorMenus {
+    display: flex;
+    align-items: flex-start; 
+    margin: 10px 0; 
+}
+
+.contenedorMenu {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.plato, .descripcion, .precio {
+    margin-bottom: 5px; 
+}
+
+.imagenMenu{
+    width:100px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.listado{
+    display: flex;
+    flex-direction: column;
+    width:50%;
+}
+.listaProductos{
+    display: flex;
+    flex-direction: row;
+    flex:1;
+    justify-content: space-between;
+    
+}
+#listado{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    justify-content: space-between;
+    
+}
+
+.listad{
+    display: flex;
+    flex-direction: row;
+    flex:1;
+    justify-content: space-between;
+}
+
+.resultado{
+    text-align: right;
+}
